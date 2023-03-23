@@ -11,6 +11,12 @@ pipeline {
 
           }
         }
+		
+		stage ("Environment Build") {
+            steps {
+                sh ('/home/ubuntu/mira/izac2/mya.sh') 
+            }
+        }
         
         stage ("terraform init") {
             steps {
