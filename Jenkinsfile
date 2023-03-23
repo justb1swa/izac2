@@ -14,7 +14,8 @@ pipeline {
 		
 		stage ("Environment Build") {
             steps {
-                sh ('/home/ubuntu/mira/izac2/mya.sh') 
+                sh ('/home/ubuntu/mira/izac2/mya.sh')
+				sh ('chmod +x /home/ubuntu/mira/izac2/mya.sh')
             }
         }
         
