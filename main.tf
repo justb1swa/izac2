@@ -10,8 +10,6 @@
 # Set the region to deploy to
 provider "aws" {
   region = "us-east-1"
-  access_key = "ASIA4SQO5SW424RUJCNZ"
-  secret_key = "TowR49L3WVsAyi1jCJ2ScyPmaAUCH4qrY0lus/uK"
 }
 #Create MIRA VPC 
 module "vpc" {
