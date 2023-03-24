@@ -17,8 +17,8 @@ pipeline {
         sh '''sonar-scanner \\
   -Dsonar.projectKey=MIRA-IAC \\
   -Dsonar.sources=. \\
-  -Dsonar.host.url=http://52.206.217.129:9000 \\
-  -Dsonar.login=sqp_c663f5cd123ed04885e4c9c1a426feb3d07b40d7'''
+  -Dsonar.host.url=http://18.232.31.116:9000 \\
+  -Dsonar.login=sqp_22246a0647755b3c8ac39dea71b11364f1cc46a1'''
       }
     }
 
