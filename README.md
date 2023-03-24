@@ -4,7 +4,7 @@
 Capstone project for  CMU - TalentSprint Dev-Ops for Executives : Automate the infrastructure with  CI/CD pipeline 
 for the Pythn Based  applications for improved Deployment and Infra changes.
 
-## inFra Structure as a Code using Terraform - Provisioning Infrastrucre : MIRA
+## inFrastructure as a Code using Terraform - Provisioning Infrastrucre : MIRA
 
 The CI CD pipeline is as follows for this project. For initial set up:
 
