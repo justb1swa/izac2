@@ -18,7 +18,7 @@ pipeline {
       }
     }
 
-    stage('Environment Build') {
+    stage('Environment Build by  MIRA') {
       steps {
         sh 'chmod +x mya.sh'
         sh 'chmod +x mytina.sh'
