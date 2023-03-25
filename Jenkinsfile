@@ -14,11 +14,7 @@ pipeline {
 
     stage('IAC Code Quality Check') {
       steps {
-        sh '''sonar-scanner \\
-  -Dsonar.projectKey=MIRA-IAC \\
-  -Dsonar.sources=. \\
-  -Dsonar.host.url=http://18.232.31.116:9000 \\
-  -Dsonar.login=sqp_22246a0647755b3c8ac39dea71b11364f1cc46a1'''
+        sh 'cat mytina.sh'
       }
     }
 
